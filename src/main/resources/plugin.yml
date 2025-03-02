@@ -1,0 +1,22 @@
+name: AfroTracker
+version: ${project.version}
+main: me.afroninja.afrotracker.AfroTracker
+api-version: 1.20
+author: AfroNinja
+description: A plugin to track hopper activity and profits.
+
+commands:
+  afrostick:
+    description: Gives the player an AfroStick.
+    usage: /<command>
+  afrotracker:
+    description: Admin commands for AfroTracker.
+    usage: /<command> <reload>
+
+permissions:
+  afrotracker.give:
+    description: Allows giving an AfroStick.
+    default: op
+  afrotracker.reload:
+    description: Allows reloading the config.
+    default: op
